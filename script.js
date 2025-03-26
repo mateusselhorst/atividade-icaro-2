@@ -18,9 +18,22 @@ verificarSinal(-12);
 function atividade12() {
     console.log("Converter Temperatura")
     let temperatura = prompt("Digite uma temeperatura em graus Celsius")
-    console.log((temperatura * 9/5) + 32);
+    console.log((temperatura * 9 / 5) + 32);
 }
 
+//13º Questão
+
+function atividade13() {
+    let x = 0;
+    let acc = 0;
+
+    while (x < 100) {
+        x = x + 1;
+        acc = acc + x;
+        console.log(acc)
+    }
+}
+atividade13();
 
 //14º Questão
 
